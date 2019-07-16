@@ -991,7 +991,7 @@ function SetXY($x, $y)
 
 function Output($name='', $dest='')
 {
-	ob_clean();
+	if (ob_get_contents()) ob_clean();
 	//Output PDF to some destination
 	if($this->state<3)
 		$this->Close();
