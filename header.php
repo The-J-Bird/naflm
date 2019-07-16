@@ -80,6 +80,9 @@ require_once('lib/game_data_bb2016.php'); # GAME_DATA_BB2016 MUST be loaded.
 if ($settings['custom_races']['Bretonnia'])         {require_once('lib/game_data_bretonnia.php');}
 if ($settings['custom_races']['Daemons of khorne']) {require_once('lib/game_data_daemonsofkhorne.php');}
 if ($settings['custom_races']['Apes of wrath'])     {require_once('lib/game_data_apesofwrath.php');}
+
+# Load DBBL Teams
+require_once('lib/game_data_dbbl.php');
 # Module settings
 require_once('lib/settings_modules_default.php'); 	# Defaults
 require_once('settings_modules.php');             	# Overrides

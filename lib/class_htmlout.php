@@ -1099,6 +1099,11 @@ class HTMLOUT
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=25" style="height:10px;line-height:10px;">Khorne</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=26" style="height:10px;line-height:10px;">Simyin</a></li>
 			</ul></li>
+			<li class="subfirst"><a rel="nofollow" href="#">Secret League ></a>
+				<ul>
+				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=100" style="height:10px;line-height:10px;">Four Nations</a></li>
+				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=101" style="height:10px;line-height:10px;">Tilea</a></li>
+				</ul>
 			<li><a href="http://www.thenaf.net/wp-content/uploads/2013/06/CRP1.pdf">The CRP (Full Blood Bowl Rules)</a></li>
 			<li><a href="http://the-outcast.com/bloodbowl/blood%20bowl%20crp%20lite.pdf">A5 Rules Summary</a></li>  
 		</ul>

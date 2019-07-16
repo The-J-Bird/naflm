@@ -514,6 +514,9 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <bretonnia>Bretonnia</bretonnia>
     <daemonsofkhorne>Daemons of Khorne</daemonsofkhorne>
     <simyin>Simyin</simyin>
+	<!--DBBL -->
+	<fournations>Four Nations</fournations>
+	<tilea>Tilea</tilea>
 </race>
 
 <position>
@@ -625,6 +628,35 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <gorilla>Gorilla</gorilla>
     <chimpanzee>Chimpanzee</chimpanzee>
     <silverback>Silverback</silverback>
+	<!--DBBL specific-->
+	<fullback>Fullback</fullback>
+	<halfback>Half Back</halfback>
+	<forwards>Forwards</forwards>
+	<wings>Wings</wings>
+	<humanlineman>Human Lineman</humanlineman>
+	<humancatcher>Human Catcher</humancatcher>
+	<humanthrower>Human Thrower</humanthrower>
+	<humanblitzer>Human Blitzer</humanblitzer>
+	<humanogre>Human Ogre</humanogre>
+	<dwarfblocker>Dwarf Blocker</dwarfblocker>
+	<dwarfrunner>Dwarf Runner</dwarfrunner>
+	<dwarfblitzer>Dwarf Blitzer</dwarfblitzer>
+	<dwarftrollslayer>Dwarf Troll Slayer</dwarftrollslayer>
+	<dwarfdeathroller>Dwarf Death Roller</dwarfdeathroller>
+	<highelflineman>High Elf Lineman</highelflineman>
+	<highelfthrower>High Elf Thrower</highelfthrower>
+	<highelfcatcher>High Elf Catcher</highelfcatcher>
+	<highelfblitzer>High Elf Blitzer</highelfblitzer>
+	<amazonlinewoman>Amazon Linewoman</amazonlinewoman>
+	<amazonthrower>Amazon Thrower</amazonthrower>
+	<amazoncatcher>Amazon Catcher</amazoncatcher>
+	<amazonblitzer>Amazon Blitzer</amazonblitzer>
+	<norselineman>Norse Lineman</norselineman>
+	<norsethrower>Norse Thrower</norsethrower>
+	<norsecatcher>Norse Catcher</norsecatcher>
+	<norseblitzer>Norse Blitzer</norseblitzer>
+	<norseyhetee>Norse Yhetee</norseyhetee>
+	<halflingtreeman>Halfling Treeman</halflingtreeman>
 </position>
 
 <skill>
@@ -817,6 +849,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <rumbelowsheepskin>Rumbelow Sheepskin</rumbelowsheepskin>
     <bigjobohairyfoot>Big Jobo Hairyfoot</bigjobohairyfoot>
     <captaincolander>Captain Colander</captaincolander>
+    <!-- DBBL Special -->
+    <syblesprite>Syble Sprite</syblesprite>
 </starplayer>
 
 <daysofweek>
