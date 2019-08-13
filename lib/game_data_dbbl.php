@@ -482,9 +482,160 @@ $DEA['Tilea'] = array (
     )
 );
 
+
 foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer') as $s) {
     array_push($stars[$s]['races'], T_RACE_TILEA);
 }
+
+// Gnome
+
+define('T_RACE_GNOME', 102);
+
+$DEA['Gnome'] = array (
+    'other'    => array (
+        'rr_cost' => 60000,
+        'icon'    => 'halfling.png',
+        'race_id' => T_RACE_GNOME, 
+    ),
+    'players'    => array (
+        'Lineman'   => array (
+            'ma'        => 6,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 7,
+            'def'       => array (108),
+            'norm'      => array ('G'),
+            'doub'      => array ('A', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 40000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10200,
+        ),
+        'Runner'    => array (
+                'ma'            => 7,
+                 'st'            => 2,
+                 'ag'            => 3,
+                 'av'            => 6,
+                 'def'        => array (12,23,108),
+                 'norm'        => array ('G','A'),
+                 'doub'        => array ( 'S', 'P'),
+                 'qty'            => 2,
+                'cost'            => 60000,
+                'icon'            => 'hlineman1',
+                'pos_id'        => 10201,
+            ),
+            'Blitzer'    => array (
+                'ma'            => 6,
+                 'st'            => 3,
+                 'ag'            => 3,
+                 'av'            => 8,
+                 'def'        => array (108, 1),
+                 'norm'        => array ('G', 'S'),
+                 'doub'        => array ('A', 'P'),
+                 'qty'            => 2,
+                'cost'            => 70000,
+                'icon'            => 'hblitzer1',
+                'pos_id'        => 10202,
+            ),
+            'Bombardier'    => array (
+                'ma'            => 6,
+                 'st'            => 3,
+                 'ag'            => 3,
+                 'av'            => 7,
+                 'def'        => array (108, 93, 105),
+                 'norm'        => array ('G'),
+                 'doub'        => array ('A', 'S', 'P'),
+                 'qty'            => 1,
+                'cost'            => 40000,
+                'icon'            => 'hthrower1',
+                'pos_id'        => 10203,
+            ),
+            'Gnomish Contraption'    => array (
+                'ma'            => 3,
+                 'st'            => 6,
+                 'ag'            => 2,
+                 'av'            => 10,
+                 'def'        => array (54, 57, 94),
+                 'norm'        => array ('S'),
+                 'doub'        => array ('G','A','P'),
+                 'qty'            => 1,
+                'cost'            => 140000,
+                'icon'            => 'hblitzer1',
+                'pos_id'        => 10204,
+            )
+    )
+);
+
+foreach (array('Barik Farblast', 'Boomer Eziasson','Flint Churnblade', 'Grim Ironjaw', 'Kari Coldsteel', 'Morg \'n\' Thorg', 'Zara the Slayer') as $s) {
+    array_push($stars[$s]['races'], T_RACE_GNOME);
+}
+
+// Daemons of Nurgle
+
+define('T_RACE_DAEMONSOFNURGLE', 103);
+
+$DEA['Daemons of Nurgle'] = array (
+    'other'    => array (
+        'rr_cost' => 70000,
+        'icon'    => 'nurgle.png',
+        'race_id' => T_RACE_DAEMONSOFNURGLE, 
+    ),
+    'players'    => array (
+        'Nurgling'   => array (
+            'ma'        => 5,
+            'st'        => 1,
+            'ag'        => 2,
+            'av'        => 6,
+            'def'       => array (104,111,108,101,74,23,52),
+            'norm'      => array ('A'),
+            'doub'      => array ('G', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 20000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10300,
+        ),
+        'Plaguebearer'    => array (
+                'ma'            => 5,
+                 'st'            => 4,
+                 'ag'            => 2,
+                 'av'            => 9,
+                 'def'        => array (59,103,74,72,101),
+                 'norm'        => array ('G','S'),
+                 'doub'        => array ( 'A', 'P'),
+                 'qty'            => 6,
+                'cost'            => 120000,
+                'icon'            => 'hlineman1',
+                'pos_id'        => 10301,
+            ),
+            'Great Unclean One'    => array (
+                'ma'            => 3,
+                 'st'            => 6,
+                 'ag'            => 1,
+                 'av'            => 10,
+                 'def'        => array (99,94,103,59,72,74,54,101,57,114,110),
+                 'norm'        => array ('S'),
+                 'doub'        => array ('G','A', 'P'),
+                 'qty'            => 1,
+                'cost'            => 200000,
+                'icon'            => 'hblitzer1',
+                'pos_id'        => 10302,
+            )
+    )
+);
+
+
+
+foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlich','Grashnak Blackhoof','Grotty (included in Brick Far\'th)','Guffle Pusmaw','Lord Borak the Despoiler','Max Spleenripper','Morg \'n\' Thorg', 'Scyla Anfingrimm','Withergrasp Doubledrool') as $s) {
+    array_push($stars[$s]['races'], T_RACE_DAEMONSOFNURGLE);
+}
+
+//Stop Apoth / Nurgles Rot for Deamons of Nurgle
+$dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
+$racesNoApothecary = array_merge($racesNoApothecary, $dbblNoApothecary);
+
+$dbblMayRaiseRotters = array(T_RACE_DAEMONSOFNURGLE);
+$racesMayRaiseRotters = array_merge($racesMayRaiseRotters,$dbblMayRaiseRotters);
+
 
 //Lets add the star players
 $dbblstars = array(
@@ -497,7 +648,7 @@ $dbblstars = array(
         'def'    => array (99, 108, 104, 23,111),
         'cost'   => 30000,
         'icon'   => 'star',
-        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101),
+        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103),
     )
     );
 

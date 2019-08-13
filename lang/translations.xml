@@ -517,6 +517,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
 	<!--DBBL -->
 	<fournations>Four Nations</fournations>
 	<tilea>Tilea</tilea>
+    <gnome>Gnome</gnome>
+    <daemonsofnurgle>Deamons of Nurgle</daemonsofnurgle>
 </race>
 
 <position>
@@ -657,6 +659,10 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
 	<norseblitzer>Norse Blitzer</norseblitzer>
 	<norseyhetee>Norse Yhetee</norseyhetee>
 	<halflingtreeman>Halfling Treeman</halflingtreeman>
+    <gnomishcontraption>Gnomish Contraption</gnomishcontraption>
+    <nurgling>Nurgling</nurgling>
+    <plaguebearer>Plaguebearer</plaguebearer>
+    <greatuncleanone>Great Unclean One</greatuncleanone>
 </position>
 
 <skill>
