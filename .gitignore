@@ -34,3 +34,5 @@ lib/class_htmlout.php
 localsettings/settings_2.php
 install.php
 settings.php
+.vscode/iisexpress.json
+.vscode/launch.json
