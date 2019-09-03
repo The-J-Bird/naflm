@@ -629,6 +629,64 @@ foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlic
     array_push($stars[$s]['races'], T_RACE_DAEMONSOFNURGLE);
 }
 
+//Skink
+
+define('T_RACE_SKINK', 104);
+
+$DEA['Skink'] = array (
+    'other'    => array (
+        'rr_cost' => 50000,
+        'icon'    => 'lizardmen.png',
+        'race_id' => T_RACE_SKINK, 
+    ),
+    'players'    => array (
+        'Skink'   => array (
+            'ma'        => 8,
+            'st'        => 2,
+            'ag'        => 3,
+            'av'        => 7,
+            'def'       => array (108,23),
+            'norm'      => array ('A'),
+            'doub'      => array ('G', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 60000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10400,
+        ),
+        'Chameleon Skink'    => array (
+                'ma'            => 8,
+                 'st'            => 1,
+                 'ag'            => 3,
+                 'av'            => 6,
+                 'def'        => array (108,111,23,14,10),
+                 'norm'        => array ('A'),
+                 'doub'        => array ('G','A', 'P'),
+                 'qty'            => 4,
+                'cost'            => 70000,
+                'icon'            => 'hlineman1',
+                'pos_id'        => 10401,
+            ),
+            'Kroxigor'    => array (
+                'ma'            => 6,
+                 'st'            => 5,
+                 'ag'            => 1,
+                 'av'            => 9,
+                 'def'        => array (94,59,54,76),
+                 'norm'        => array ('S'),
+                 'doub'        => array ('G','A', 'P'),
+                 'qty'            => 4,
+                'cost'            => 140000,
+                'icon'            => 'hblitzer1',
+                'pos_id'        => 10402,
+            )
+    )
+);
+
+
+foreach (array('Helmut Wulf', 'Hemlock','Lottabottol','Morg \'n\' Thorg', 'Quetzal Leap','Slibli') as $s) {
+    array_push($stars[$s]['races'], T_RACE_SKINK);
+}
+
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
 $dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
 $racesNoApothecary = array_merge($racesNoApothecary, $dbblNoApothecary);
@@ -648,7 +706,7 @@ $dbblstars = array(
         'def'    => array (99, 108, 104, 23,111),
         'cost'   => 30000,
         'icon'   => 'star',
-        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103),
+        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104),
     )
     );
 
