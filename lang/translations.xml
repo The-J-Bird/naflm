@@ -520,6 +520,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <gnome>Gnome</gnome>
     <daemonsofnurgle>Deamons of Nurgle</daemonsofnurgle>
     <skink>Skink</skink>
+    <clanmoulder>Clan Moulder</clanmoulder>
+    <pygmy>Pygmy</pygmy>
 </race>
 
 <position>
@@ -665,6 +667,9 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <plaguebearer>Plaguebearer</plaguebearer>
     <greatuncleanone>Great Unclean One</greatuncleanone>
     <chameleonskink>Chameleon Skink</chameleonskink>
+    <ratogres>Rat Ogres</ratogres>
+    <slaves>Slaves</slaves>
+    <pygmy>Pygmy</pygmy>
 </position>
 
 <skill>

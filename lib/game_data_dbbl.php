@@ -687,6 +687,124 @@ foreach (array('Helmut Wulf', 'Hemlock','Lottabottol','Morg \'n\' Thorg', 'Quetz
     array_push($stars[$s]['races'], T_RACE_SKINK);
 }
 
+//Clan Moulder
+
+define('T_RACE_CLAN_MOULDER', 105);
+
+$DEA['Clan Moulder'] = array (
+    'other'    => array (
+        'rr_cost' => 60000,
+        'icon'    => 'skaven.png',
+        'race_id' => T_RACE_CLAN_MOULDER, 
+    ),
+    'players'    => array (
+        'Slaves'   => array (
+            'ma'        => 7,
+            'st'        => 2,
+            'ag'        => 3,
+            'av'        => 6,
+            'def'       => array (108,23),
+            'norm'      => array ('A','M'),
+            'doub'      => array ('G', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 40000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10500,
+        ),
+        'Rat Ogres'    => array (
+                'ma'            => 6,
+                 'st'            => 5,
+                 'ag'            => 2,
+                 'av'            => 8,
+                 'def'        => array (112,54,5,76),
+                 'norm'        => array ('S','M'),
+                 'doub'        => array ('G','A', 'P'),
+                 'qty'            => 6,
+                'cost'            => 150000,
+                'icon'            => 'hlineman1',
+                'pos_id'        => 10501,
+            )
+    )
+);
+
+
+foreach (array('Fezglitch', 'Glart Smashrip Jr.', 'Glart Smashrip Sr', 'Hakflem Skuttlespike', 'Headsplitter', 'Kreek Rustgouger', 'Morg \'n\' Thorg', 'Rasta Tailspike', 'Skitter Stab-Stab') as $s) {
+    array_push($stars[$s]['races'], T_RACE_CLAN_MOULDER);
+}
+
+
+//Pygmy
+
+define('T_RACE_PYGMY', 106);
+
+$DEA['Pygmy'] = array (
+    'other'    => array (
+        'rr_cost' => 60000,
+        'icon'    => 'halfling.png',
+        'race_id' => T_RACE_PYGMY, 
+    ),
+    'players'    => array (
+        'Pygmy'   => array (
+            'ma'        => 6,
+            'st'        => 2,
+            'ag'        => 4,
+            'av'        => 7,
+            'def'       => array (108,23),
+            'norm'      => array ('A'),
+            'doub'      => array ('G', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 50000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10600,
+        ),
+        'Thrower'   => array (
+            'ma'        => 6,
+            'st'        => 2,
+            'ag'        => 4,
+            'av'        => 7,
+            'def'       => array (108,23,45,12),
+            'norm'      => array ('A', 'P'),
+            'doub'      => array ('G', 'S'),
+            'qty'       => 2,
+            'cost'      => 80000,
+            'icon'      => 'hthrower1',
+            'pos_id'    => 10601,
+        ),
+        'Catcher'   => array (
+            'ma'        => 7,
+            'st'        => 2,
+            'ag'        => 4,
+            'av'        => 7,
+            'def'       => array (108,23,10,20),
+            'norm'      => array ('A'),
+            'doub'      => array ('G', 'S', 'P'),
+            'qty'       => 2,
+            'cost'      => 80000,
+            'icon'      => 'hcatcher1',
+            'pos_id'    => 10602,
+        ),
+        'Blitzer'   => array (
+            'ma'        => 6,
+            'st'        => 2,
+            'ag'        => 4,
+            'av'        => 7,
+            'def'       => array (108,23,71,2),
+            'norm'      => array ('A','S'),
+            'doub'      => array ('G', 'P'),
+            'qty'       => 4,
+            'cost'      => 90000,
+            'icon'      => 'hblitzer1',
+            'pos_id'    => 10603,
+        )
+    )
+);
+
+
+foreach (array('Bertha Bigfist', 'Big Jobo Hairyfoot', 'Captain Colander', 'Cindy Pewhistle', 'Deeproot Strongbranch', 'Karla von Kill', 'Morg \'n\' Thorg', 'Neddley Verruca', 'Puggy Baconbreath' , 'Rumbelow Sheepskin', 'Willow Rosebark', 'Zara the Slayer') as $s) {
+    array_push($stars[$s]['races'], T_RACE_PYGMY);
+}
+
+
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
 $dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
 $racesNoApothecary = array_merge($racesNoApothecary, $dbblNoApothecary);
@@ -706,7 +824,7 @@ $dbblstars = array(
         'def'    => array (99, 108, 104, 23,111),
         'cost'   => 30000,
         'icon'   => 'star',
-        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104),
+        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106),
     )
     );
 
