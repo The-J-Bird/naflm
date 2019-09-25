@@ -20,7 +20,7 @@
 <table-td>TD</table-td>
 <table-cas>Cas</table-cas>
 <table-points>Pts</table-points>
-
+<table-smp>AB Pts</table-smp>
 </en-GB>
 
 <es-ES>
@@ -43,6 +43,6 @@
 <table-td>TD</table-td>
 <table-cas>Her</table-cas>
 <table-points>Pts</table-points>
-
+<table-smp>AB Pts</table-smp>
 </es-ES>
 </translations>
