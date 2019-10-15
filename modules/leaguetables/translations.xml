@@ -21,6 +21,7 @@
 <table-cas>Cas</table-cas>
 <table-points>Pts</table-points>
 <table-smp>AB Pts</table-smp>
+<table-elo>ELO</table-elo>
 </en-GB>
 
 <es-ES>
@@ -44,5 +45,6 @@
 <table-cas>Her</table-cas>
 <table-points>Pts</table-points>
 <table-smp>AB Pts</table-smp>
+<table-elo>ELO</table-elo>
 </es-ES>
 </translations>

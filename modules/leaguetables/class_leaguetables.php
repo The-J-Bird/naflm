@@ -197,6 +197,7 @@ public static function showTables() {
 		$lng->getTrn('table-cas', 'LeagueTables') => 'mv_tcdiff',
 		$lng->getTrn('table-points', 'LeagueTables') => 'mv_pts',
 		$lng->getTrn('table-smp', 'LeagueTables') => 'mv_smp',
+		$lng->getTrn('table-elo', 'LeagueTables') => 'rg_elo',
 		);
 
 	$unplayedTeams = self::getUnplayedTeamsForTournament($tour_id);
@@ -303,6 +304,8 @@ public static function showPlayedTeams($teams, $fields, &$i, $allowedTeams = 0) 
 					$value = "<a href='". urlcompile(T_URL_PROFILE,T_OBJ_COACH,$t['owned_by_coach_id'],false,false) ."'>$t[$field]</a>";
 				} else if ($field == 'f_rname') {
 					$value = "<a href='". urlcompile(T_URL_PROFILE,T_OBJ_RACE,$t['f_race_id'],false,false) ."'>$t[$field]</a>";
+				} else if ($field == 'rg_elo') {
+					$value = sprintf("%1.2f", $value);
 				}
 				echo "<td>" . $value  . "</td>";
 			}
@@ -356,6 +359,7 @@ public static function showTeam($t, & $i) {
 	echo "<td>0</td>";
 	echo "<td>0</td>";
 	echo "<td>0</td>";
+	echo "<td><i>N/A</i></td>";
 	echo "</tr>\n";
 }
 
