@@ -633,6 +633,12 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <gorilla>Gorilla</gorilla>
     <chimpanzee>Chimpanzee</chimpanzee>
     <silverback>Silverback</silverback>
+    <!-- Added BB2016 Spike! #6 -->
+    <glorielsummerbloom>Gloriel Summerbloom</glorielsummerbloom>
+    <swiftvineglimmershard>Swiftvine Glimmershard</swiftvineglimmershard>
+    <maplehighgrove>Maple Highgrove</maplehighgrove>
+    <zolcaththezoat>Zolcath the Zoat</zolcaththezoat>
+    <curnothdarkwold>Curnoth Darkwold</curnothdarkwold>
 	<!--DBBL specific-->
 	<fullback>Fullback</fullback>
 	<halfback>Half Back</halfback>
