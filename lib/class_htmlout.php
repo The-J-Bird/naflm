@@ -1039,6 +1039,7 @@ class HTMLOUT
 					?>  <li><a href="<?php echo $leagueUrl;?>"><?php echo $settings['league_url_name'];?></a></li><?php
 				}
 			?>
+			<li><a href="DBBL_Match_Report.pdf" target="_blank">Match Report</a></li>
 		</ul>
 	</li>
 			
