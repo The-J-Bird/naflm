@@ -804,6 +804,89 @@ foreach (array('Bertha Bigfist', 'Big Jobo Hairyfoot', 'Captain Colander', 'Cind
     array_push($stars[$s]['races'], T_RACE_PYGMY);
 }
 
+//Pirate
+
+define('T_RACE_PIRATE', 107);
+
+$DEA['Pirate'] = array (
+    'other'    => array (
+        'rr_cost' => 70000,
+        'icon'    => 'norse.png',
+        'race_id' => T_RACE_PIRATE, 
+    ),
+    'players'    => array (
+        'Pirates'   => array (
+            'ma'        => 6,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 7,
+            'def'       => array (),
+            'norm'      => array ('G'),
+            'doub'      => array ('A', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 40000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10700,
+        ),
+        'Long Drongs Slayer'   => array (
+            'ma'        => 5,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 8,
+            'def'       => array (11,59,2,113),
+            'norm'      => array ('G', 'S'),
+            'doub'      => array ('A', 'P'),
+            'qty'       => 2,
+            'cost'      => 80000,
+            'icon'      => 'hthrower1',
+            'pos_id'    => 10701,
+        ),
+        'Black Ark Corsair'   => array (
+            'ma'        => 7,
+            'st'        => 3,
+            'ag'        => 4,
+            'av'        => 7,
+            'def'       => array (113),
+            'norm'      => array ('G','A'),
+            'doub'      => array ( 'S', 'P'),
+            'qty'       => 2,
+            'cost'      => 70000,
+            'icon'      => 'hcatcher1',
+            'pos_id'    => 10702,
+        ),
+        'Ogres'   => array (
+            'ma'        => 5,
+            'st'        => 5,
+            'ag'        => 2,
+            'av'        => 9,
+            'def'       => array (94,99,54,59,110),
+            'norm'      => array ('S'),
+            'doub'      => array ('G','A', 'P'),
+            'qty'       => 2,
+            'cost'      => 140000,
+            'icon'      => 'hblitzer1',
+            'pos_id'    => 10703,
+        ),
+        'Captain'   => array (
+            'ma'        => 6,
+            'st'        => 4,
+            'ag'        => 3,
+            'av'        => 8,
+            'def'       => array (43),
+            'norm'      => array ('G','S'),
+            'doub'      => array ('A', 'P'),
+            'qty'       => 1,
+            'cost'      => 100000,
+            'icon'      => 'hblitzer1',
+            'pos_id'    => 10704,
+        )
+    )
+);
+
+foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer') as $s) {
+    array_push($stars[$s]['races'], T_RACE_PIRATE);
+}
+
 
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
 $dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
@@ -824,7 +907,7 @@ $dbblstars = array(
         'def'    => array (99, 108, 104, 23,111),
         'cost'   => 30000,
         'icon'   => 'star',
-        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106),
+        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106,107),
     )
     );
 

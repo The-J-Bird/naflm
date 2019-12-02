@@ -522,6 +522,7 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <skink>Skink</skink>
     <clanmoulder>Clan Moulder</clanmoulder>
     <pygmy>Pygmy</pygmy>
+    <pirate>Pirate</pirate>
 </race>
 
 <position>
@@ -670,6 +671,11 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <ratogres>Rat Ogres</ratogres>
     <slaves>Slaves</slaves>
     <pygmy>Pygmy</pygmy>
+    <pirates>Pirate</pirates>
+    <blackarkcorsair>Black Ark Corsair</blackarkcorsair>
+    <longdrongsslayer>Long Drongs Slayer</longdrongsslayer>
+    <captain>Captain</captain>
+    <ogres>Ogre</ogres>
 </position>
 
 <skill>
