@@ -887,6 +887,101 @@ foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Col
     array_push($stars[$s]['races'], T_RACE_PIRATE);
 }
 
+//Clan Skryre
+
+define('T_RACE_CLAN_SKRYRE', 108);
+
+$DEA['Clan Skryre'] = array (
+    'other'    => array (
+        'rr_cost' => 60000,
+        'icon'    => 'skaven.png',
+        'race_id' => T_RACE_CLAN_SKRYRE, 
+    ),
+    'players'    => array (
+        'Clan Rats'   => array (
+            'ma'        => 7,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 7,
+            'def'       => array (),
+            'norm'      => array ('G'),
+            'doub'      => array ('A', 'S', 'P','M'),
+            'qty'       => 16,
+            'cost'      => 50000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10800,
+        ),
+        'Mecha Vermin'   => array (
+            'ma'        => 5,
+            'st'        => 4,
+            'ag'        => 1,
+            'av'        => 9,
+            'def'       => array (59),
+            'norm'      => array ('G', 'S'),
+            'doub'      => array ('A', 'P','M'),
+            'qty'       => 2,
+            'cost'      => 80000,
+            'icon'      => 'hthrower1',
+            'pos_id'    => 10801,
+        ),
+        'Jezzail'   => array (
+            'ma'        => 7,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 7,
+            'def'       => array (12,58,42),
+            'norm'      => array ('G','P'),
+            'doub'      => array ('A', 'S', 'M'),
+            'qty'       => 2,
+            'cost'      => 80000,
+            'icon'      => 'hcatcher1',
+            'pos_id'    => 10802,
+        ),
+        'Poison Wind Globadiers'   => array (
+            'ma'        => 6,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 8,
+            'def'       => array (93,105),
+            'norm'      => array ('G'),
+            'doub'      => array ('A','S','M', 'P'),
+            'qty'       => 2,
+            'cost'      => 50000,
+            'icon'      => 'hblitzer1',
+            'pos_id'    => 10803,
+        ),
+        'Warp Grinder'   => array (
+            'ma'        => 7,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 7,
+            'def'       => array (95,105),
+            'norm'      => array ('G'),
+            'doub'      => array ('A', 'S', 'M', 'P'),
+            'qty'       => 1,
+            'cost'      => 50000,
+            'icon'      => 'hblitzer1',
+            'pos_id'    => 10804,
+        ),
+        'Doom Flayers'   => array (
+            'ma'        => 5,
+            'st'        => 7,
+            'ag'        => 1,
+            'av'        => 9,
+            'def'       => array (99,50,5,53,100,54,105,3),
+            'norm'      => array ('S'),
+            'doub'      => array ('G', 'A', 'M', 'P'),
+            'qty'       => 1,
+            'cost'      => 160000,
+            'icon'      => 'hblitzer1',
+            'pos_id'    => 10805,
+        )
+    )
+);
+
+foreach (array('Fezglitch', 'Glart Smashrip Jr.', 'Glart Smashrip Sr', 'Hakflem Skuttlespike', 'Headsplitter', 'Kreek Rustgouger', 'Morg \'n\' Thorg', 'Rasta Tailspike', 'Skitter Stab-Stab') as $s) {
+    array_push($stars[$s]['races'], T_RACE_CLAN_SKRYRE);
+}
 
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
 $dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
@@ -907,7 +1002,7 @@ $dbblstars = array(
         'def'    => array (99, 108, 104, 23,111),
         'cost'   => 30000,
         'icon'   => 'star',
-        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106,107),
+        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106,107,108),
     )
     );
 

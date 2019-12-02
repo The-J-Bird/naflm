@@ -523,6 +523,7 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <clanmoulder>Clan Moulder</clanmoulder>
     <pygmy>Pygmy</pygmy>
     <pirate>Pirate</pirate>
+    <clanskryre>Clan Skryre</clanskryre>
 </race>
 
 <position>
@@ -676,6 +677,12 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <longdrongsslayer>Long Drongs Slayer</longdrongsslayer>
     <captain>Captain</captain>
     <ogres>Ogre</ogres>
+    <clanrats>Clan Rat</clanrats>
+    <poisonwindglobadiers>Poison Wind Globadier</poisonwindglobadiers>
+    <warpgrinder>Warp Grinder</warpgrinder>
+    <jezzail>Jezzail</jezzail>
+    <mechavermin>Mecha Vermin</mechavermin>
+    <doomflayers>Doom Flayers</doomflayers>
 </position>
 
 <skill>

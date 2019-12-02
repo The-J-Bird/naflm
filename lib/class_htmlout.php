@@ -1103,6 +1103,7 @@ class HTMLOUT
 			<li class="subfirst"><a rel="nofollow" href="#">Secret League ></a>
 				<ul>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=105" style="height:10px;line-height:10px;">Clan Moulder</a></li>
+				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=108" style="height:10px;line-height:10px;">Clan Skryre</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=103" style="height:10px;line-height:10px;">Daemons of Nurgle</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=100" style="height:10px;line-height:10px;">Four Nations</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=102" style="height:10px;line-height:10px;">Gnome</a></li>
