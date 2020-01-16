@@ -797,8 +797,8 @@ function sec_about() {
         <br><br>With special thanks to Scott Bartel, Tom "Hutchinsfairy" and Michael Franchetti.
         <br><br>
 
-	This build of software picked together by David Byrne using NAFLM v1.0 on 22nd October 2019<br>
-	Updated game data was sourced and was current from Blood Bowl 2016, DeathZone 1 and 2, Spike Magazine 1 to 6.<br>
+	This build of software picked together by David Byrne using NAFLM v1.0 on 15th January 2020<br>
+	Updated game data was sourced and was current from Blood Bowl 2016, DeathZone 1 and 2, Spike Magazine 1 to 8.<br>
 	<br>
 	Repository can be found at <a href="https://github.com/byrnesvictim/naflm/releases">https://github.com/byrnesvictim/naflm/releases</a><br><br>
 	<br>

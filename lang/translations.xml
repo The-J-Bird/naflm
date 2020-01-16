@@ -597,7 +597,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <nurglewarrior>Nurgle Warrior</nurglewarrior>
     <beastofnurgle>Beast of Nurgle</beastofnurgle>
     <!-- Orge -->
-    <snotling>Snotling</snotling>
+    <snotling>Gnoblar</snotling>
+    <runtpunter>Runt Punter</runtpunter>
     <!-- Orc -->
     <blackorcblocker>Black Orc Blocker</blackorcblocker>
     <!-- Skaven -->
@@ -771,6 +772,9 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <titchy>Titchy</titchy>
     <wildanimal>Wild Animal</wildanimal>
     <weepingblades>Weeping Dagger</weepingblades>
+    <!-- Added BB2016 Spike! #8 -->
+    <disposable>Disposable</disposable>
+    <kickteammate>Kick Team-Mate</kickteammate>
 </skill>
 
 <starplayer>
@@ -886,6 +890,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <drulldribl>Drull (&amp; Dribl)</drulldribl>
     <driblincludedwithdrull>Dribl (included with Drull)</driblincludedwithdrull>
     <glotlstop>Glotl Stop</glotlstop>
+    <!-- Added BB2016 Spike! #8 -->
+    <bobbifford>Bob Bifford</bobbifford>
     <!-- DBBL Special -->
     <syblesprite>Syble Sprite</syblesprite>
 </starplayer>
@@ -1492,7 +1498,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <nurglewarrior>Guerreros de Nurgle</nurglewarrior>
     <beastofnurgle>Bestia de Nurgle</beastofnurgle>
     <!-- Orge -->
-    <snotling>Snotling</snotling>
+    <snotling>Gnoblar</snotling>
+    <runtpunter>Runt Punter</runtpunter>
     <!-- Orc -->
     <blackorcblocker>Defensa Orco Negro</blackorcblocker>
     <!-- Skaven -->
@@ -3109,7 +3116,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <nurglewarrior>Guerrier de Nurgle</nurglewarrior>
     <beastofnurgle>Bête de Nurgle</beastofnurgle>
     <!-- Orge -->
-    <snotling>Snotling</snotling>
+    <snotling>Gnoblar</snotling>
+    <runtpunter>Runt Punter</runtpunter>
     <!-- Orc -->
     <blackorcblocker>Bloqueur Orque Noir</blackorcblocker>
     <!-- Skaven -->

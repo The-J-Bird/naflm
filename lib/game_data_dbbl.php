@@ -81,7 +81,7 @@ $DEA['Four Nations'] = array (
 );
 
 
-foreach (array('Frank N Stein', 'Griff Oberwald', 'Helmut Wulf', 'Kari Coldsteel', 'Mighty Zug', 'Karla von Kill', 'Morg \'n\' Thorg', 'Puggy Baconbreath', 'Zara the Slayer') as $s) {
+foreach (array('Frank N Stein', 'Griff Oberwald', 'Helmut Wulf', 'Kari Coldsteel', 'Mighty Zug', 'Karla von Kill', 'Morg \'n\' Thorg', 'Puggy Baconbreath', 'Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_FOUR_NATIONS);
 }
 
@@ -483,7 +483,7 @@ $DEA['Tilea'] = array (
 );
 
 
-foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer') as $s) {
+foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_TILEA);
 }
 
@@ -566,7 +566,7 @@ $DEA['Gnome'] = array (
     )
 );
 
-foreach (array('Barik Farblast', 'Boomer Eziasson','Flint Churnblade', 'Grim Ironjaw', 'Kari Coldsteel', 'Morg \'n\' Thorg', 'Zara the Slayer') as $s) {
+foreach (array('Barik Farblast', 'Boomer Eziasson','Flint Churnblade', 'Grim Ironjaw', 'Kari Coldsteel', 'Morg \'n\' Thorg', 'Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_GNOME);
 }
 
@@ -625,7 +625,7 @@ $DEA['Daemons of Nurgle'] = array (
 
 
 
-foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlich','Grashnak Blackhoof','Grotty (included in Brick Far\'th)','Guffle Pusmaw','Lord Borak the Despoiler','Max Spleenripper','Morg \'n\' Thorg', 'Scyla Anfingrimm','Withergrasp Doubledrool') as $s) {
+foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlich','Grashnak Blackhoof','Grotty (included in Brick Far\'th)','Guffle Pusmaw','Lord Borak the Despoiler','Max Spleenripper','Morg \'n\' Thorg', 'Scyla Anfingrimm','Withergrasp Doubledrool', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_DAEMONSOFNURGLE);
 }
 
@@ -683,7 +683,7 @@ $DEA['Skink'] = array (
 );
 
 
-foreach (array('Helmut Wulf', 'Hemlock','Lottabottol','Morg \'n\' Thorg', 'Quetzal Leap','Slibli') as $s) {
+foreach (array('Helmut Wulf', 'Hemlock','Lottabottol','Morg \'n\' Thorg', 'Quetzal Leap','Slibli', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_SKINK);
 }
 
@@ -728,7 +728,7 @@ $DEA['Clan Moulder'] = array (
 );
 
 
-foreach (array('Fezglitch', 'Glart Smashrip Jr.', 'Glart Smashrip Sr', 'Hakflem Skuttlespike', 'Headsplitter', 'Kreek Rustgouger', 'Morg \'n\' Thorg', 'Rasta Tailspike', 'Skitter Stab-Stab') as $s) {
+foreach (array('Fezglitch', 'Glart Smashrip Jr.', 'Glart Smashrip Sr', 'Hakflem Skuttlespike', 'Headsplitter', 'Kreek Rustgouger', 'Morg \'n\' Thorg', 'Rasta Tailspike', 'Skitter Stab-Stab', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_CLAN_MOULDER);
 }
 
@@ -800,7 +800,7 @@ $DEA['Pygmy'] = array (
 );
 
 
-foreach (array('Bertha Bigfist', 'Big Jobo Hairyfoot', 'Captain Colander', 'Cindy Pewhistle', 'Deeproot Strongbranch', 'Karla von Kill', 'Morg \'n\' Thorg', 'Neddley Verruca', 'Puggy Baconbreath' , 'Rumbelow Sheepskin', 'Willow Rosebark', 'Zara the Slayer') as $s) {
+foreach (array('Bertha Bigfist', 'Big Jobo Hairyfoot', 'Captain Colander', 'Cindy Pewhistle', 'Deeproot Strongbranch', 'Karla von Kill', 'Morg \'n\' Thorg', 'Neddley Verruca', 'Puggy Baconbreath' , 'Rumbelow Sheepskin', 'Willow Rosebark', 'Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_PYGMY);
 }
 
@@ -883,7 +883,7 @@ $DEA['Pirate'] = array (
     )
 );
 
-foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer') as $s) {
+foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_PIRATE);
 }
 
@@ -979,7 +979,7 @@ $DEA['Clan Skryre'] = array (
     )
 );
 
-foreach (array('Fezglitch', 'Glart Smashrip Jr.', 'Glart Smashrip Sr', 'Hakflem Skuttlespike', 'Headsplitter', 'Kreek Rustgouger', 'Morg \'n\' Thorg', 'Rasta Tailspike', 'Skitter Stab-Stab') as $s) {
+foreach (array('Fezglitch', 'Glart Smashrip Jr.', 'Glart Smashrip Sr', 'Hakflem Skuttlespike', 'Headsplitter', 'Kreek Rustgouger', 'Morg \'n\' Thorg', 'Rasta Tailspike', 'Skitter Stab-Stab', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_CLAN_SKRYRE);
 }
 
