@@ -797,6 +797,9 @@ function sec_about() {
         <br><br>With special thanks to Scott Bartel, Tom "Hutchinsfairy" and Michael Franchetti.
         <br><br>
 
+    Random Name generator added by <a href="https://www.jrevell.com">Johnathan Revell</a> with thanks to <a href="https://github.com/nubs/random-name-generator">Nubs</a>
+    <br><br>
+
 	This build of software picked together by David Byrne using NAFLM v1.0 on 15th January 2020<br>
 	Updated game data was sourced and was current from Blood Bowl 2016, DeathZone 1 and 2, Spike Magazine 1 to 8.<br>
 	<br>

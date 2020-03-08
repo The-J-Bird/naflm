@@ -680,6 +680,16 @@ class Player
          * Creates a new player.
          * Input: nr, f_pos_id, name, team_id
          */
+
+         //Johnathan Revell 2020-03-08
+         //Create a random name if one does not exist
+         if ($input['name'] === "")
+         {
+            $Generator = new Vgng(null);
+            $input['name'] =  $Generator->getName();
+         }
+         //End create a random name
+
         global $rules, $DEA, $T_ALL_PLAYER_NR;
         $lid = get_alt_col('teams', 'team_id', $input['team_id'], 'f_lid');
         setupGlobalVars(T_SETUP_GLOBAL_VARS__LOAD_LEAGUE_SETTINGS, array('lid' => (int) $lid)); // Load correct $rules for league.

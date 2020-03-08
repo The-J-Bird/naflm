@@ -114,6 +114,9 @@ require_once('lib/class_translations.php');
 require_once('lib/class_objevent.php');
 require_once('lib/class_filemanager.php');
 
+//Random Name Generator
+require_once('lib/random_name_generator/Vgng.php');
+
 // External libraries.
 require_once('lib/class_arraytojs.php');
 
