@@ -983,6 +983,81 @@ foreach (array('Fezglitch', 'Glart Smashrip Jr.', 'Glart Smashrip Sr', 'Hakflem 
     array_push($stars[$s]['races'], T_RACE_CLAN_SKRYRE);
 }
 
+
+// Beastmen
+
+define('T_RACE_BEASTMEN', 109);
+
+$DEA['Beastmen'] = array (
+    'other'    => array (
+        'rr_cost' => 60000,
+        'icon'    => 'nurgle.png',
+        'race_id' => T_RACE_BEASTMEN, 
+    ),
+    'players'    => array (
+        'Gor'   => array (
+            'ma'        => 6,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 8,
+            'def'       => array (75),
+            'norm'      => array ('G','S'),
+            'doub'      => array ('A', 'M', 'P'),
+            'qty'       => 16,
+            'cost'      => 60000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 10900,
+        ),
+        'Ungor'    => array (
+            'ma'            => 7,
+            'st'            => 2,
+            'ag'            => 3,
+            'av'            => 7,
+            'def'        => array (23),
+            'norm'        => array ('G','A'),
+            'doub'        => array ( 'S','P','M'),
+            'qty'            => 4,
+            'cost'            => 50000,
+            'icon'            => 'hlineman1',
+            'pos_id'        => 10901,
+        ),
+        'Bestigor'    => array (
+            'ma'            => 6,
+            'st'            => 4,
+            'ag'            => 3,
+            'av'            => 8,
+            'def'        => array (75),
+            'norm'        => array ('G','S'),
+            'doub'        => array ('A','P', 'M'),
+            'qty'            => 4,
+            'cost'            => 110000,
+            'icon'            => 'hblitzer1',
+            'pos_id'        => 10902,
+        ),
+        'Minotaur'    => array (
+            'ma'            => 5,
+             'st'            => 5,
+             'ag'            => 2,
+             'av'            => 8,
+             'def'        => array (99,75,5,54,112,59),
+             'norm'        => array ('S'),
+             'doub'        => array ('G','A','P', 'M'),
+             'qty'            => 2,
+            'cost'            => 150000,
+            'icon'            => 'hblitzer1',
+            'pos_id'        => 10903,
+        )
+)
+);
+
+
+
+foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlich','Grashnak Blackhoof','Grotty (included in Brick Far\'th)','Guffle Pusmaw','Lord Borak the Despoiler','Max Spleenripper','Morg \'n\' Thorg', 'Scyla Anfingrimm','Withergrasp Doubledrool', 'Bob Bifford') as $s) {
+    array_push($stars[$s]['races'], T_RACE_BEASTMEN);
+}
+
+
+
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
 $dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
 $racesNoApothecary = array_merge($racesNoApothecary, $dbblNoApothecary);
@@ -1002,7 +1077,7 @@ $dbblstars = array(
         'def'    => array (99, 108, 104, 23,111),
         'cost'   => 30000,
         'icon'   => 'star',
-        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106,107,108),
+        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106,107,108,109),
     )
     );
 
