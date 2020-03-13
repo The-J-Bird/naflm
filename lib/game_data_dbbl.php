@@ -1057,6 +1057,52 @@ foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlic
 }
 
 
+//Pygmy
+
+define('T_RACE_TREEMEN', 110);
+
+$DEA['Treemen'] = array (
+    'other'    => array (
+        'rr_cost' => 70000,
+        'icon'    => 'halfling.png',
+        'race_id' => T_RACE_TREEMEN, 
+    ),
+    'players'    => array (
+        'Sprite'   => array (
+            'ma'        => 6,
+            'st'        => 1,
+            'ag'        => 3,
+            'av'        => 5,
+            'def'       => array (23,108,111,104,26),
+            'norm'      => array ('A'),
+            'doub'      => array ('G', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 20000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 11000,
+        ),
+        'Treeman'   => array (
+            'ma'        => 2,
+            'st'        => 6,
+            'ag'        => 1,
+            'av'        => 10,
+            'def'       => array (115,109,54,59,58,110,57),
+            'norm'      => array ('S'),
+            'doub'      => array ('G', 'A', 'P'),
+            'qty'       => 2,
+            'cost'      => 120000,
+            'icon'      => 'hthrower1',
+            'pos_id'    => 11001,
+        )
+    )
+);
+
+
+foreach (array('Bertha Bigfist', 'Big Jobo Hairyfoot', 'Captain Colander', 'Cindy Pewhistle', 'Deeproot Strongbranch', 'Karla von Kill', 'Morg \'n\' Thorg', 'Neddley Verruca', 'Puggy Baconbreath' , 'Rumbelow Sheepskin', 'Willow Rosebark', 'Zara the Slayer', 'Bob Bifford') as $s) {
+    array_push($stars[$s]['races'], T_RACE_TREEMEN);
+}
+
+
 
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
 $dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
@@ -1077,7 +1123,7 @@ $dbblstars = array(
         'def'    => array (99, 108, 104, 23,111),
         'cost'   => 30000,
         'icon'   => 'star',
-        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106,107,108,109),
+        'races'  => array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,100,101,102,103,104,105,106,107,108,109,110),
     )
     );
 

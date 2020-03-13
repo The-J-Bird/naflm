@@ -1112,6 +1112,7 @@ class HTMLOUT
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=106" style="height:10px;line-height:10px;">Pygmy</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=104" style="height:10px;line-height:10px;">Skink</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=101" style="height:10px;line-height:10px;">Tilea</a></li>
+				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=110" style="height:10px;line-height:10px;">Treemen</a></li>
 				</ul>
 			<li><a href="http://www.thenaf.net/wp-content/uploads/2013/06/CRP1.pdf">The CRP (Full Blood Bowl Rules)</a></li>
 			<li><a href="http://the-outcast.com/bloodbowl/blood%20bowl%20crp%20lite.pdf">A5 Rules Summary</a></li>  
