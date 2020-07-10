@@ -508,12 +508,13 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <vampire>Vampire</vampire>
     <skaven>Skaven</skaven>
     <woodelf>Wood Elf</woodelf>
-    <chaospact>Chaos Pact</chaospact>
-    <underworld>Underworld</underworld>
+    <chaospact>Chaos Renegade</chaospact>
+    <underworld>Underworld Denizen</underworld>
     <slann>Slann</slann>
     <bretonnia>Bretonnia</bretonnia>
     <daemonsofkhorne>Daemons of Khorne</daemonsofkhorne>
     <simyin>Simyin</simyin>
+    <oldworldalliance>Old World Alliance</oldworldalliance>
 	<!--DBBL -->
 	<fournations>Four Nations</fournations>
 	<tilea>Tilea</tilea>
@@ -617,16 +618,16 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <!-- Wood Elf -->
     <wardancer>War Dancer</wardancer>
     <!-- Chaos Pact -->
-    <marauder>Marauder</marauder>
-    <goblinrenegade>Goblin Renegade</goblinrenegade>
-    <skavenrenegade>Skaven Renegade</skavenrenegade>
-    <darkelfrenegade>Dark Elf Renegade</darkelfrenegade>
-    <orcrenegade>Orc Renegade</orcrenegade>
-    <chaostroll>Chaos Troll</chaostroll>
-    <chaosogre>Chaos Ogre</chaosogre>
+    <marauder>Renegade Human Linemen</marauder>
+    <goblinrenegade>Renegade Goblin</goblinrenegade>
+    <skavenrenegade>Renegade Skaven</skavenrenegade>
+    <darkelfrenegade>Renegade Dark Elf Lineman</darkelfrenegade>
+    <orcrenegade>Renegade Orc Lineman</orcrenegade>
+    <chaostroll>Troll</chaostroll>
+    <chaosogre>Ogre</chaosogre>
     <!-- Underworld -->
-    <underworldgoblin>Underworld Goblin</underworldgoblin>
-    <warpstonetroll>Warp Stone Troll</warpstonetroll>
+    <underworldgoblin>Goblin</underworldgoblin>
+    <warpstonetroll>Underworld Troll</warpstonetroll>
     <!-- Khorne -->
     <pitfighter>Pit Fighter</pitfighter>
     <bloodletterdaemon>Bloodletter Daemon</bloodletterdaemon>

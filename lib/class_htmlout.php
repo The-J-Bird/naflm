@@ -1083,6 +1083,7 @@ class HTMLOUT
 			   <li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=13" style="height:10px;line-height:10px;">Necromantic</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=14" style="height:10px;line-height:10px;">Norse</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=15" style="height:10px;line-height:10px;">Nurgle</a></li>
+				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=27" style="height:10px;line-height:10px;">Old World Alliance</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=16" style="height:10px;line-height:10px;">Ogre</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=12" style="height:10px;line-height:10px;">Orc</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=19" style="height:10px;line-height:10px;">Skaven</a></li>
@@ -1091,9 +1092,9 @@ class HTMLOUT
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=20" style="height:10px;line-height:10px;">Wood Elf</a></li>
 			</ul></li>
 			<li class="subfirst"><a rel="nofollow" href="#">LRB6 Rosters ></a>
-				<ul><li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=21" style="height:10px;line-height:10px;">Chaos Pact</a></li>
+				<ul><li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=21" style="height:10px;line-height:10px;">Chaos Renegade</a></li>
 				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=22" style="height:10px;line-height:10px;">Slann</a></li>
-				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=23" style="height:10px;line-height:10px;">Underworld</a></li>
+				<li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=23" style="height:10px;line-height:10px;">Underworld Denizen</a></li>
 			</ul></li>
 			<li class="subfirst"><a rel="nofollow" href="#">(Optional) Community Rosters ></a>
 				<ul><li><a href="index.php?section=objhandler&type=1&obj=4&obj_id=24" style="height:10px;line-height:10px;">Bretonnian</a></li>

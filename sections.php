@@ -800,13 +800,11 @@ function sec_about() {
     Random Name generator added by <a href="https://www.jrevell.com">Johnathan Revell</a> with thanks to <a href="https://github.com/nubs/random-name-generator">Nubs</a>
     <br><br>
 
-	This build of software picked together by David Byrne using NAFLM v1.0 on 15th January 2020<br>
-	Updated game data was sourced and was current from Blood Bowl 2016, DeathZone 1 and 2, Spike Magazine 1 to 8.<br>
+	This build of software picked together by David Byrne using NAFLM v1.0 on 10th July 2020<br>
+	Updated game data was sourced and was current from Blood Bowl 2016, DeathZone 1 and 2, Spike Magazine 1 to 9.<br>
 	<br>
 	Repository can be found at <a href="https://github.com/byrnesvictim/naflm/releases">https://github.com/byrnesvictim/naflm/releases</a><br><br>
-	<br>
-	Thanks to Anthony Baez for the Spike 6 stars
-	<br>
+
         OBBLM consists of valid HTML 4.01 transitional document type pages.
         <br><br>
         <img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88">
