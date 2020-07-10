@@ -1872,7 +1872,20 @@ $DEA = array (
                 'cost'            => 140000,
                 'icon'            => 'ogre1',
                 'pos_id'        => 278,
-            )
+            ),
+            'Dwarf Blocker'    => array (
+                'ma'            => 4,
+                 'st'            => 3,
+                 'ag'            => 2,
+                 'av'            => 9,
+                 'def'        => array (99, 1, 13, 59),
+                 'norm'        => array ('G', 'S'),
+                 'doub'        => array ('A', 'P'),
+                 'qty'            => 2,
+                'cost'            => 70000,
+                'icon'            => 'dlongbeard1',
+                'pos_id'        => 279,
+            ),
         )
     ),
 );
