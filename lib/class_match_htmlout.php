@@ -552,7 +552,7 @@ class Match_HTMLOUT extends Match
 		<form method="POST" enctype="multipart/form-data">
 			<table class="common">
 				<tr class='commonhead'><td colspan="<?php echo $CP;?>"><b><?php echo $lng->getTrn('matches/report/info');?></b></td></tr>
-				<tr><td class='seperator' colspan='<?php echo $CP;?>'></td></tr>
+				
 				<tr><td colspan='<?php echo $CP;?>'>
 					<b><?php echo $lng->getTrn('matches/report/stadium');?></b>&nbsp;
 					<select name="stadium" <?php echo $DIS;?>>
@@ -593,7 +593,7 @@ class Match_HTMLOUT extends Match
 					<td><b><?php echo $lng->getTrn('matches/report/tv');?></b></td>
 				</tr>
 
-				<tr><td class='seperator' colspan='<?php echo $CP;?>'></td></tr>
+				
 				<?php
 				foreach (array(1,2) as $N) {
 					echo "<tr>\n";
@@ -637,18 +637,29 @@ class Match_HTMLOUT extends Match
 					   case 'bh': $header_text = $lng->getTrn('matches/report/bh'); break;
 					   case 'si': $header_text = $lng->getTrn('matches/report/si'); break;
 					   case 'ki': $header_text = $lng->getTrn('matches/report/ki'); break;
-					   case 'ir1d1': $header_text = $lng->getTrn('matches/report/ir1')." D1"; break;
+					   case 'ir1d1': $header_text = $lng->getTrn('matches/report/ir1'); break;
 					   case 'ir1d2': $header_text = $lng->getTrn('matches/report/ir1')." D2"; break;
-					   case 'ir2d1': $header_text = $lng->getTrn('matches/report/ir2')." D1"; break;
+					   case 'ir2d1': $header_text = $lng->getTrn('matches/report/ir2'); break;
 					   case 'ir2d2': $header_text = $lng->getTrn('matches/report/ir2')." D2"; break;
-					   case 'ir3d1': $header_text = $lng->getTrn('matches/report/ir3')." D1"; break;
+					   case 'ir3d1': $header_text = $lng->getTrn('matches/report/ir3'); break;
 					   case 'ir3d2': $header_text = $lng->getTrn('matches/report/ir3')." D2"; break;
 					   case 'inj': $header_text = $lng->getTrn('matches/report/inj'); break;
 					   case 'ageing1': $header_text = $lng->getTrn('matches/report/ageing1'); break;
 					   case 'ageing2': $header_text = $lng->getTrn('matches/report/ageing2'); break;
+					   case 'int': $header_text = $lng->getTrn('matches/report/int'); break;
+					   case 'td': $header_text = $lng->getTrn('matches/report/td'); break;
 					   default: $header_text = $f;
 					 }
-					 echo "<td><i>$header_text</i></td>\n";
+					 switch(strtolower(str_replace(' ', '', $f)))
+				   	{
+						case 'ir1d1': echo "<td colspan=2>$header_text 1</td>\n"; break;
+						case 'ir2d1': echo "<td colspan=2>$header_text 2</td>\n"; break;
+						case 'ir3d1': echo "<td colspan=2>$header_text 3</td>\n"; break;
+						case 'ir1d2': break;
+						case 'ir2d2': break;
+						case 'ir3d2': break;
+						default: echo "<td>$header_text</td>\n";
+				   	}
 				}
 				echo "</tr>\n";
 

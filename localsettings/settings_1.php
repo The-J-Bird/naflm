@@ -12,7 +12,7 @@ $settings['lang']            = 'en-GB';
  *   General
  *********************/
 // Change the Title after the = sign.  Do not change things before the = sign.
-$settings['banner_subtitle'] = 'New here?  Visit theNAF.net/Leagues for more information';
+$settings['banner_subtitle'] = 'Doncaster Bloodbowl League';
 // Button text for league URL.
 $settings['league_url_name'] = 'League Forum'; 
 // Stylesheet for text etc. Currently stylesheet 1 is the only existing stylesheet, so don't change it!  
@@ -33,6 +33,7 @@ $get_second = get_alt_col('league_prefs','f_lid',$get_lid,'second_tid');
 $settings['tourlist_foldup_fin_divs'] = false; // Default is false. If true the division nodes in the tournament lists section will automatically be folded up if all child tournaments in that division are marked as finished.
 $settings['tourlist_hide_nodes'] = array('league', 'division', 'tournament'); // Default is array('league', 'division', 'tournament'). In the section tournament lists these nodes will be hidden if their contents (children) are finished. Example: If 'division' is chosen here, and all tours in a given division are finished, then the division entry will be hidden.
 
+$settings['hide_ES_extensions'] = true;
 /*********************
  *   Rules
  *********************/

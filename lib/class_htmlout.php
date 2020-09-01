@@ -1190,14 +1190,14 @@ class HTMLOUT
 			<tr>
 				<?php
 				foreach ($fields as $f => $attr)
-					echo "<td><i>$attr[desc]</i></td>";
+					echo "<td><b>$attr[desc]</b></td>";
 				?>
 			</tr>
 			<tr>
 			<?php
 			foreach ($fields as $f => $attr) {
 				if (in_array($f, $no_print_fields) || (array_key_exists('nosort', $attr) && $attr['nosort'])) {
-					echo "<td></td>";
+					
 					continue;
 				}
 				$sort = 'sort'.$GETSUFX;
@@ -1210,7 +1210,7 @@ class HTMLOUT
 			}
 			?>
 			</tr>
-			<tr><td colspan="<?php echo $CP;?>"><hr></td></tr>
+
 			<?php
 			$i = 1 + (($PAGE && $PAGELENGTH) ? ($PAGE-1)*$PAGELENGTH : 0);
 			foreach ($objs as $o) {
@@ -1284,11 +1284,7 @@ class HTMLOUT
 			}
 			if (!$NOSRDISP) {
 			?>
-			<tr>
-				<td colspan="<?php echo $CP;?>">
-				<hr>
-				</td>
-			</tr>
+
 			<tr>
 				<td align="right" colspan="<?php echo $CP;?>">
 				<?php
