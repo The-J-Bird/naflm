@@ -483,7 +483,7 @@ $DEA['Tilea'] = array (
 );
 
 
-foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer', 'Bob Bifford') as $s) {
+foreach (array('Boomer', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_TILEA);
 }
 
@@ -566,7 +566,7 @@ $DEA['Gnome'] = array (
     )
 );
 
-foreach (array('Barik Farblast', 'Boomer Eziasson','Flint Churnblade', 'Grim Ironjaw', 'Kari Coldsteel', 'Morg \'n\' Thorg', 'Zara the Slayer', 'Bob Bifford') as $s) {
+foreach (array('Barik Farblast', 'Boomer','Flint Churnblade', 'Grim Ironjaw', 'Kari Coldsteel', 'Morg \'n\' Thorg', 'Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_GNOME);
 }
 
@@ -883,7 +883,7 @@ $DEA['Pirate'] = array (
     )
 );
 
-foreach (array('Boomer Eziasson', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer', 'Bob Bifford') as $s) {
+foreach (array('Boomer', 'Helmut Wulf', 'Icepelt Hammerblow', 'Kari Coldsteel', 'Karla von Kill', 'Morg \'n\' Thorg', 'Scyla Anfingrimm', 'Wilhelm Chaney','Zara the Slayer', 'Bob Bifford') as $s) {
     array_push($stars[$s]['races'], T_RACE_PIRATE);
 }
 
