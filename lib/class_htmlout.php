@@ -1200,7 +1200,7 @@ class HTMLOUT
 			<?php
 			foreach ($fields as $f => $attr) {
 				if (in_array($f, $no_print_fields) || (array_key_exists('nosort', $attr) && $attr['nosort'])) {
-					
+					echo "<td></td>";
 					continue;
 				}
 				$sort = 'sort'.$GETSUFX;
