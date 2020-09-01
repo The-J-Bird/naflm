@@ -665,7 +665,7 @@ class SQLCore
 				DETERMINISTIC
 				NO SQL
 			BEGIN
-				RETURN IFNULL(100*(won+draw/2)/played,0);
+				RETURN IF(played > 0,100*(won+draw/2)/played,0);
 			END',
 
 			/*
@@ -1099,7 +1099,6 @@ class SQLCore
 					- inj_ag * '.$rules['value_reduction_ag'].'
 					- inj_st * '.$rules['value_reduction_st'].'
 					- (SELECT IF(INSTR(skills, "118"), 1, 0) * cost FROM game_data_players WHERE game_data_players.pos_id = f_pos_id);
-
 
 
 				SELECT

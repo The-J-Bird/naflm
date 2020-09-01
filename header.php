@@ -13,6 +13,9 @@ if (!defined('T_NO_STARTUP') && file_exists('install.php'))
 error_reporting((E_ALL | E_STRICT) & ~E_DEPRECATED);
 session_start();
 
+// MySQL wrapper to use mysqli for PHP7 support
+require_once('lib/mysqli_wrapper.php');
+
 /*********************
  *   General
  *********************/
@@ -29,11 +32,35 @@ $credits = array(	'Pierluigi Masia',
 					'Goiz Ruiz de Gopegui',
 					'Ryan Williams',
 					'Ian Williams');
+define('NAFLM_VERSION', '2.0');
+define('NAFLM_BUILD_DATE', '1st of September 2020');
+define('CONTENT_VERSION', 'Spike 10.0');
+define('CONTENT_DETAIL', 'Blood Bowl 2016, including Deathzone 1 and 2 and Spike 1 through 10');
+define('CONTENT_DATE', '1st of September 2020');
+$naflmcredits = array(	
+						'Anthony Baez',
+						'byrnesvictim',
+						'Craig Fleming',
+						'dannyuk1982',
+						'Derek Hall',
+						'doubleskulls',
+						'drd0dger',	
+						'hutchinsfary',
+						'juergen69',
+						'kossy',
+						'mfranchetti',
+						'rythos42',
+						'Shteve0',
+						'snotlingorc',
+						'thefloppy1',
+						'vanhu42',
+						'williamleonard (funnyfingers)'
+					  );
 define('MAX_RECENT_GAMES', 15); // This limits the number of rows shown in the "recent/upcoming games" tables.
 define('MAX_TNEWS', 3); // This number of entries are shown on the team news board.
-define('DOC_URL', 'http://www.nicholasmr.dk/obblmwiki');
-define('DOC_URL_GUIDE', 'http://www.nicholasmr.dk/obblmwiki/index.php?title=User_guide');
-define('DOC_URL_CUSTOM', 'http://www.nicholasmr.dk/obblmwiki/index.php?title=Customization');
+define('DOC_URL', 'http://github.com/nicholasmr/obblm/wiki');
+define('DOC_URL_GUIDE', 'http://github.com/nicholasmr/obblm/wiki/User-guide');
+define('DOC_URL_CUSTOM', 'http://github.com/nicholasmr/obblm/wiki/Customization');
 
 /*********************
  *   Node and object types.

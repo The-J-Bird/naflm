@@ -6,7 +6,7 @@ define('T_RACE_BRETONNIA', 24);
 $DEA['Bretonnia'] = array (
     'other'    => array (
         'rr_cost' => 70000,
-        'icon'    => 'bretonnian.jpg',
+        'icon'    => 'bretonnian.png',
         'race_id' => T_RACE_BRETONNIA, # (Bretonnia)
     ),
     'players'    => array (
@@ -53,6 +53,14 @@ $DEA['Bretonnia'] = array (
 );
 
 // Stars allowed
-foreach (array('Dolfar Longstride', 'Griff Oberwald', 'Mighty Zug', 'Morg \'n\' Thorg', 'Willow Rosebark', 'Zara the Slayer', 'Bob Bifford') as $s) {
+foreach (array( 'Dolfar Longstride',
+				'Griff Oberwald', 
+				'Mighty Zug', 
+				'Morg \'n\' Thorg', 
+				'Willow Rosebark', 
+				'Zara the Slayer', 
+				'Bob Bifford', 
+				'Slave Giant',
+				) as $s) {
     array_push($stars[$s]['races'], T_RACE_BRETONNIA);
 }

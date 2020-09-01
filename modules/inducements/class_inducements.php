@@ -21,12 +21,6 @@
  *
  */
 
-/* 
-
-    Known bug: Chose a star 1. Chose star 2. Change star 1 to same as star 2 and both will be the same.
-    
- */
-
 class IndcPage implements ModuleInterface
 {
 
@@ -318,8 +312,12 @@ function SendToPDF()
                 $card_list = str_replace('<option>'.$cardb.'</option>', '<option selected>'.$cardb.'</option>', $card_list);
             }
         }
-        $card_cost = str_replace('k','',$cardb);
-        $ind_cost += $card_cost * 1000;
+        if ($cardb != '') {
+            $card_cost = intval(str_replace('k','',$cardb));
+            $ind_cost += $card_cost * 1000;
+        } else {
+            $cardb = '0k';
+        }
         print $card_list;
         echo '</SELECT></td>';
         echo '<td class="cent2">=</td><td class="cent">'.$cardb.'</td>';

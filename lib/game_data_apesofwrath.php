@@ -5,7 +5,7 @@ define('T_RACE_APESOFWRATH', 26);
 $DEA['Simyin']  = array (
     'other'          => array (
         'rr_cost'       => 60000,
-        'icon'          => 'apesofwrath.png',
+        'icon'          => 'naf.png',
         'race_id'       => T_RACE_APESOFWRATH, # (Apes of Wrath)
     ),
     'players'   => array (
@@ -82,8 +82,9 @@ foreach (array(	'Bertha Bigfist',
 				'Puggy Baconbreath',
 				'Morg \'n\' Thorg',
 				'Willow Rosebark',
-                'Zara the Slayer',
-                'Bob Bifford',
+				'Zara the Slayer',
+				'Bob Bifford',
+				'Slave Giant',
 				) as $s) {
     array_push($stars[$s]['races'], T_RACE_APESOFWRATH);
 }

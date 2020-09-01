@@ -5,7 +5,7 @@ define('T_RACE_DKHORNE', 25);
 $DEA['Daemons of Khorne'] = array (
     'other'     => array (
         'rr_cost'   => 70000,
-        'icon'      => 'dkhorne.png',
+        'icon'      => 'naf.png',
         'race_id'   => T_RACE_DKHORNE, # (Daemons of Khorne)
     ),
     'players'    => array (
@@ -71,8 +71,9 @@ foreach (array(	'Brick Far\'th (+ Grotty)',
 				'Lewdgrip Whiparm',
 				'Morg \'n\' Thorg',
 				'Lord Borak the Despoiler',
-                'Max Spleenripper',
-                'Bob Bifford',
+				'Max Spleenripper',
+				'Bob Bifford',
+				'Slave Giant',
 				) as $s) {
     array_push($stars[$s]['races'], T_RACE_DKHORNE);
 }
