@@ -468,7 +468,7 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
                 <results>Game results</results>
                 <treas>Treasury</treas>
                 <ff>Fan factor</ff>
-                <smp>Sportsmanship points</smp>
+                <smp>Alternative Blocking Points</smp>
                 <pts>points</pts>
                 <tcas>Total team CAS</tcas>
                 <fame>FAME</fame>
@@ -477,17 +477,19 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
                 <usedjourney>Match cannot be saved until you decide the fate of the used journeymen on the team roster page</usedjourney>
 
                 <!-- Match report table header -->
-                <mvp>Mvp</mvp>
-                <cp>Cp</cp>
-                <bh>Bh</bh>
-                <si>Si</si>
-                <ki>Ki</ki>
-                <ir1>IR 1</ir1>
-                <ir2>IR 2</ir2>
-                <ir3>IR 3</ir3>
-                <inj>Inj</inj>
-                <ageing1>Ageing 1</ageing1>
-                <ageing2>Ageing 2</ageing2>
+                <mvp>Most Valued Player</mvp>
+                <cp>Completed Pass</cp>
+                <bh>Badly Hurt</bh>
+                <si>Serious Injury</si>
+                <ki>Kill</ki>
+                <ir1>Improvement Roll</ir1>
+                <ir2>Improvement Roll</ir2>
+                <ir3>Improvement Roll</ir3>
+                <inj>Injury</inj>
+                <ageing1>Ageing Injury</ageing1>
+                <ageing2>Ageing Injury</ageing2>
+                <td>Touchdowns</td>
+                <int>Interceptions</int>
 
             </report>
         </matches>
