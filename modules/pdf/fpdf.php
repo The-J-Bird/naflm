@@ -979,6 +979,7 @@ function SetXY($x, $y)
 
 function Output($dest='', $name='', $isUTF8=false)
 {
+	if (ob_get_length()) ob_clean(); //JR Fix for error with OBBLM
 	// Output PDF to some destination
 	$this->Close();
 	if(strlen($name)==1 && strlen($dest)!=1)
