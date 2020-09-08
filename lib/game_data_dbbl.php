@@ -1151,7 +1151,7 @@ $DEA['DaemonsOfSlannesh'] = array (
             'qty'       => 1,
             'cost'      => 200000,
             'icon'      => 'hlineman1',
-            'pos_id'    => 11101,
+            'pos_id'    => 11102,
         )
     )
 );
@@ -1163,9 +1163,70 @@ foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlic
 
 
 
+define('T_RACE_NECRARCH', 112);
+
+$DEA['Necrarch'] = array (
+    'other'    => array (
+        'rr_cost' => 70000,
+        'icon'    => 'necromantic.png',
+        'race_id' => T_RACE_NECRARCH, 
+    ),
+    'players'    => array (
+        'Skeleton'   => array (
+            'ma'        => 5,
+            'st'        => 3,
+            'ag'        => 2,
+            'av'        => 7,
+            'def'       => array (59, 103),
+            'norm'      => array ('G'),
+            'doub'      => array ('A', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 40000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 11200,
+        ),
+        'Wight'   => array (
+            'ma'        => 6,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 8,
+            'def'       => array (1, 103),
+            'norm'      => array ('G','S'),
+            'doub'      => array ('A', 'P'),
+            'qty'       => 2,
+            'cost'      => 90000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 11201,
+        ),
+        'Necrarch Vampire'   => array (
+            'ma'        => 6,
+            'st'        => 3,
+            'ag'        => 4,
+            'av'        => 8,
+            'def'       => array(103,74,98),
+            'norm'      => array ('G','A','S'),
+            'doub'      => array ('P'),
+            'qty'       => 4,
+            'cost'      => 110000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 11202,
+        )
+    )
+);
+
+foreach (array('\'Rotten\' Rick Bupkeis', 'Bob Bifford','Count Luthor Von Drakenborg','Frank N Stein','G\'Ral Blodschuker','Gretchen Wachter \'The Blood Bowl Widow\'','Hack Enslash','Ivan \'The Animal\' Deathshroud','J Earlice','Ramtut III','Setekh','Slave Giant','Throttlesnot \'The Implaer\'','Wilhelm Chaney') as $s) {
+    array_push($stars[$s]['races'], T_RACE_NECRARCH);
+}
+
+
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
-$dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE,T_RACE_DAEMONSOFSLAANESH);
+$dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE,T_RACE_DAEMONSOFSLAANESH,T_RACE_NECRARCH);
 $racesNoApothecary = array_merge($racesNoApothecary, $dbblNoApothecary);
+
+
+$dbblracesHasNecromancer = array(T_RACE_NECRARCH);
+$racesHasNecromancer = array_merge($racesHasNecromancer,$dbblracesHasNecromancer);
+
 
 $dbblMayRaiseRotters = array(T_RACE_DAEMONSOFNURGLE,T_RACE_DAEMONSOFSLAANESH);
 $racesMayRaiseRotters = array_merge($racesMayRaiseRotters,$dbblMayRaiseRotters);
