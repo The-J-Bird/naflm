@@ -1057,7 +1057,7 @@ foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlic
 }
 
 
-//Pygmy
+//Treemen
 
 define('T_RACE_TREEMEN', 110);
 
@@ -1104,11 +1104,70 @@ foreach (array('Bertha Bigfist', 'Big Jobo Hairyfoot', 'Captain Colander', 'Cind
 
 
 
+
+define('T_RACE_DAEMONSOFSLAANESH', 111);
+
+$DEA['DaemonsOfSlannesh'] = array (
+    'other'    => array (
+        'rr_cost' => 70000,
+        'icon'    => 'chaos.png',
+        'race_id' => T_RACE_DAEMONSOFSLAANESH, 
+    ),
+    'players'    => array (
+        'Cultist'   => array (
+            'ma'        => 6,
+            'st'        => 3,
+            'ag'        => 3,
+            'av'        => 8,
+            'def'       => array (),
+            'norm'      => array ('G','M'),
+            'doub'      => array ('A', 'S', 'P'),
+            'qty'       => 16,
+            'cost'      => 50000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 11100,
+        ),
+        'Daemonette'   => array (
+            'ma'        => 7,
+            'st'        => 3,
+            'ag'        => 4,
+            'av'        => 7,
+            'def'       => array (98,71,103),
+            'norm'      => array ('G','A'),
+            'doub'      => array ('S', 'P'),
+            'qty'       => 6,
+            'cost'      => 120000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 11101,
+        ),
+        'Keeper of Secrets'   => array (
+            'ma'        => 7,
+            'st'        => 5,
+            'ag'        => 4,
+            'av'        => 8,
+            'def'       => array (99,112,103,73,71,79),
+            'norm'      => array ('S'),
+            'doub'      => array ('G','A', 'P'),
+            'qty'       => 1,
+            'cost'      => 200000,
+            'icon'      => 'hlineman1',
+            'pos_id'    => 11101,
+        )
+    )
+);
+
+
+foreach (array('Bilerot Vomitflesh', 'Brick Far\'th (+ Grotty)','Gobbler Grimlich','Grashnak Blackhoof','Grotty (included in Brick Far\'th)','Guffle Pusmaw','Lord Borak the Despoiler','Max Spleenripper','Morg \'n\' Thorg', 'Scyla Anfingrimm','Withergrasp Doubledrool', 'Bob Bifford') as $s) {
+    array_push($stars[$s]['races'], T_RACE_DAEMONSOFSLAANESH);
+}
+
+
+
 //Stop Apoth / Nurgles Rot for Deamons of Nurgle
-$dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE);
+$dbblNoApothecary = array(T_RACE_DAEMONSOFNURGLE,T_RACE_DAEMONSOFSLAANESH);
 $racesNoApothecary = array_merge($racesNoApothecary, $dbblNoApothecary);
 
-$dbblMayRaiseRotters = array(T_RACE_DAEMONSOFNURGLE);
+$dbblMayRaiseRotters = array(T_RACE_DAEMONSOFNURGLE,T_RACE_DAEMONSOFSLAANESH);
 $racesMayRaiseRotters = array_merge($racesMayRaiseRotters,$dbblMayRaiseRotters);
 
 

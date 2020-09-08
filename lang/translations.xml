@@ -596,6 +596,7 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <clanskryre>Clan Skryre</clanskryre>
     <beastmen>Beastmen</beastmen>
     <treemen>Treemen</treemen>
+    <daemonsofslannesh>Daemons of Slannesh</daemonsofslannesh>
 
         </race>
 
@@ -780,7 +781,9 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <ungor>Ungor</ungor>
     <bestigor>Bestigor</bestigor>
     <sprite>Sprite</sprite>
-
+    <cultist>Cultist</cultist>
+    <daemonette>Daemonette</daemonette>
+    <keeperofsecrets>Keeper of Secrets</keeperofsecrets>
         </position>
 
         <skill>
